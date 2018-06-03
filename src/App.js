@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React, { Component } from 'react';
 import './App.css';
+import OpportunityList from './OpportunityList'
 
 class App extends Component {
   render() {
@@ -8,6 +9,9 @@ class App extends Component {
       <div className="container">
         <div className="row">
           <h1>HelpAroundHere</h1>
+        </div>
+        <div className="row">
+          <OpportunityList />
         </div>
       </div>
     );
